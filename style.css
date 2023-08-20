@@ -1,0 +1,153 @@
+/********** Common CSS Starts **********/  
+* {
+    margin:0px;
+    padding:0px;
+}
+html, body {
+    font-family Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+}
+.menu{
+    display:flex;
+    list-style:none;
+    padding:10px;
+}
+
+.menu li{
+    margin-right:20px;
+}
+
+.menu a{
+    color:rgb(239, 238, 242);
+    text-decoration:none;
+}
+   
+}
+.main-section {
+    width: 100%;
+    float: left;
+    padding:50px 0px 40px 0px;
+}
+.heading {
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px solid #3d11ec;
+    margin-bottom:25px;
+    color: #2a0fdb;
+}
+/********** Common CSS Ends **********/
+/********** Logo CSS Starts **********/  
+.logo {
+    width:100%;
+}
+/********** Logo CSS Ends **********/
+/********** Main Menu CSS Starts **********/  
+nav {
+    width: 100%;
+    float: left;
+    background: #460ce6;
+    padding:15px 0px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #ffc3c3;
+    padding:2px 20px;
+}
+/********** Main Menu CSS Ends **********/
+/********** Slider CSS Starts **********/  
+.slider img {
+    width:100%;
+}
+/********** Slider CSS Ends **********/
+/********** News, Event, Notice Board CSS Starts **********/  
+.event {
+    width: 79%;
+    margin-right: 1%;
+    float: 20% left;
+}
+.event div {
+    padding:1px;
+    background-color: #e1dde8;
+}
+.event ul li {
+    margin-bottom: 50px;
+    width: 50%;
+    float: right;
+}
+/********** News, Event, Notice Board CSS Ends **********/
+/********** About Us CSS Starts **********/  
+.about-us img {
+    width:24%;
+    float:left;
+}
+.about-us div {
+    width:70%;
+    margin-left:20px;
+    float:left;
+    line-height:35px;
+}
+/********** About Us CSS Ends **********/
+/********** Gallery CSS Starts **********/  
+.gallery img {
+    width: 24%;
+}
+/********** Gallery CSS Ends **********/
+/********** Footer CSS Starts **********/  
+.footer {
+    background-color:#1f2836;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+}
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 0px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
+/********** Footer CSS Ends **********/
+.dropdown:hover .submenu{
+    display:block;
+}
+
+.submenu li{
+    margin:5px 0;
+}
+
+li a:hover{
+    background-color:white;
+    color:black;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    list-style:none;
+    padding: 10px;
+
+}
+.menu
